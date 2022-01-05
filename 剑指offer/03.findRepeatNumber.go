@@ -10,10 +10,8 @@ func findRepeatNumber(nums []int) int {
 	m := make(map[int]int)
 	for _, value := range nums {
 		if _, ok := m[value]; ok {
-			// 存在该数值
 			return value
 		} else {
-			//	不存在
 			m[value] = 1
 		}
 	}
@@ -23,7 +21,6 @@ func findRepeatNumber(nums []int) int {
 // 方法二
 func findRepeatNumber2(nums []int) int {
 	sort.Ints(nums)
-
 	for i, numSize := 0, len(nums); i < numSize-1; i++ {
 		if nums[i] == nums[i+1] {
 			return nums[i]

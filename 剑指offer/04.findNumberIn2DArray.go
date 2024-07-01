@@ -55,6 +55,6 @@ func findNumberIn2DArray2(matrix [][]int, target int) bool {
 	return false
 }
 
-func main() {
+// func main() {
 
-}
+// }

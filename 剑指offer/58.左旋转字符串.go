@@ -11,6 +11,6 @@ func reverseLeftWords(s string, n int) string {
 	return string(str1)
 }
 
-func main() {
+// func main() {
 
-}
+// }

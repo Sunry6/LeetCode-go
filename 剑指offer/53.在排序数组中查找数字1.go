@@ -60,6 +60,6 @@ func findLastPosition(nums []int, target int) int {
 	return left
 }
 
-func main() {
+// func main() {
 
-}
+// }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -29,11 +28,11 @@ func findRepeatNumber2(nums []int) int {
 	return -1
 }
 
-func main() {
-	nums := []int{2, 3, 1, 0, 2, 5, 3}
-	num := findRepeatNumber(nums)
-	fmt.Println(num)
+// func main() {
+// 	nums := []int{2, 3, 1, 0, 2, 5, 3}
+// 	num := findRepeatNumber(nums)
+// 	fmt.Println(num)
 
-	num2 := findRepeatNumber2(nums)
-	fmt.Println(num2)
-}
+// 	num2 := findRepeatNumber2(nums)
+// 	fmt.Println(num2)
+// }

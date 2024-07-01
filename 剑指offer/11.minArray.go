@@ -30,6 +30,6 @@ func findMin2(nums []int) int {
 	return nums[left]
 }
 
-func main() {
+// func main() {
 
-}
+// }

@@ -13,6 +13,6 @@ func firstUniqChar(s string) byte {
 	return ' '
 }
 
-func main() {
+// func main() {
 
-}
+// }

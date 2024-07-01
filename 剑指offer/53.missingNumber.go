@@ -25,6 +25,6 @@ func missingNumber2(nums []int) int {
 	return left
 }
 
-func main() {
+// func main() {
 
-}
+// }
